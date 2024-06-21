@@ -1,6 +1,66 @@
-# ignore target folder
- /target/
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/MavenWrapperDownloader.java
 
-# ignore IntelliJ files
+### SonarScanner ###
+.scannerwork/
+.sonar/
+sonar/
+.sonarqube/
+
+### IDEs ###
+# Eclipse
+.classpath
+.project
+.settings/
+*.pydevproject
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders/
+
+# Intellij
 .idea/
 *.iml
+*.iws
+*out/
+
+# VS Code
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Build ###
+dist/
+build/
+
+### Logs ###
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Other ###
+*.class
+*.war
+*.ear
+*.pb
